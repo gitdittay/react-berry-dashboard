@@ -66,7 +66,7 @@ const Register = () => {
                                         <Grid item container direction="column" alignItems="center" xs={12}>
                                             <Typography
                                                 component={RouterLink}
-                                                to="/pages/login/login3"
+                                                to="/pages/firebase-forms/FirebaseLogin"
                                                 variant="subtitle1"
                                                 sx={{ textDecoration: 'none' }}
                                             >

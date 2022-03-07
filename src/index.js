@@ -17,14 +17,14 @@ import './assets/scss/style.scss';
 
 //-----------------------|| REACT DOM RENDER  ||-----------------------//
 
-ReactDOM.render(
+ReactDOM.render(    
     <Provider store={store}>
         <PersistGate loading={null} persistor={persister}>
-            <BrowserRouter basename={config.basename}>
+             <BrowserRouter basename={config.basename}>
                 <App />
-            </BrowserRouter>
+             </BrowserRouter>
         </PersistGate>
-    </Provider>,
+     </Provider>,
     document.getElementById('root')
 );
 

@@ -349,7 +349,8 @@ const FirebaseRegister = ({ ...others }) => {
                                     type="submit"
                                     variant="contained"
                                     color="secondary"
-                                >
+                                    component={Link} to="/login">
+                                
                                     Sign up
                                 </Button>
                             </AnimateButton>

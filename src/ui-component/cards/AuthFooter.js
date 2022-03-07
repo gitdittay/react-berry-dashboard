@@ -7,12 +7,12 @@ import { Link, Typography, Stack } from '@material-ui/core';
 
 const AuthFooter = () => {
     return (
-        <Stack direction="row" justifyContent="space-between">
+        <Stack direction="row" Content="center">
             <Typography variant="subtitle2" component={Link} href="https://berrydashboard.io" target="_blank" underline="hover">
-                berrydashboard.io
+                Virtual Expo powered by &copy; bigmediahouse
             </Typography>
             <Typography variant="subtitle2" component={Link} href="https://codedthemes.com" target="_blank" underline="hover">
-                &copy; codedthemes.com
+                
             </Typography>
         </Stack>
     );

@@ -250,6 +250,7 @@ const RestLogin = (props, { ...others }) => {
                                     type="submit"
                                     variant="contained"
                                     color="secondary"
+                                    component={Link} to="/sample-page/index"
                                 >
                                     Sign IN
                                 </Button>
